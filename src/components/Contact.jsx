@@ -45,7 +45,7 @@ function Contact() {
   }
 
   return (
-    <div className="contact" id="contact" >
+    <div className="contact" >
       <div className="contact-left">
         <h2>Contact Trendify</h2>
         <p>Have a question or feedback? We’d love to hear from you!</p>

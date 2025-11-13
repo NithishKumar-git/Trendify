@@ -21,7 +21,7 @@ function Product({addToCart}) {
   }, []);
 
   return (
-    <section className="products" id="products">
+    <section className="products">
       <h2>Our Products</h2>
       <div className="product-grid">
         {products.length > 0 ? (

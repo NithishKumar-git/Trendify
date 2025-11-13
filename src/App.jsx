@@ -1,25 +1,24 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Homepage from './components/Homepage'
-import ProductDetail from './components/ProductDetail'
-import Contact from './components/Contact'
-import About from './components/About'
-import Footer from './components/Footer'
-import Top from './components/Top'
+import React from 'react';
+import Navbar from './components/Navbar.jsx';
+import Homepage from './components/Homepage.jsx';
+import ProductDetail from './components/ProductDetail.jsx';
+import Contact from './components/Contact.jsx';
+import About from './components/About.jsx';
+import Footer from './components/Footer.jsx';
+import Top from './components/Top.jsx';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Top/>
-      <Homepage/>
-      <About/>
-      <ProductDetail/>
-      <Contact/>
-      <Footer/>
-      
+      <Homepage />
+      <Top />
+      <About />
+      <ProductDetail />
+      <Contact />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

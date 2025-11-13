@@ -5,7 +5,7 @@ import aboutImg2 from '../assets/aboutImg2.avif';
 function About() {
   return (
     <div>
-        <div className='about' id="about" >
+        <div className='about'>
             <div className='about-left'>
                 <h1>About Us </h1>
                 <p>Welcome to Trendify, your go-to destination for the latest styles and fashion trends.
