@@ -1,0 +1,28 @@
+.top-1{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    background-color: #ff4d6d;
+    height: 50px;
+    width: 50px;
+    position:fixed;
+    border-radius: 50%;
+}
+
+.top{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: end;
+    align-content: stretch;
+    background-color: #ff4d6d;
+}
+
+.top-1 i{
+   color: white;
+   font-weight: 900;
+}

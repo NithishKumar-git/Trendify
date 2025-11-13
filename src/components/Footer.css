@@ -1,0 +1,27 @@
+.footer-left{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    height: 10vh;
+    font-family: sans-serif;
+}
+
+.footer-left a {
+    color: white;
+    text-decoration: none;
+   
+}
+@media (min-width: 360px) and (max-width: 800px) {
+.footer-left{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: auto;
+    font-family: sans-serif; 
+}
+}
