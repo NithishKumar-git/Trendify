@@ -9,7 +9,6 @@ function Navbar() {
         <div className="container-fluid">
           <h1 className="navbar-brand fw-bold m-0">Trendify</h1>
 
-          {/* Toggle button for mobile */}
           <button
             className="navbar-toggler"
             type="button"
